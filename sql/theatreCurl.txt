@@ -1,0 +1,3 @@
+curl -X POST http://localhost:8081/theaterservice/movieshow -H 'Content-Type: application/json' -d '{"theatreId":"123","movieId":"111","startDate":"2022-01-22","endDate":"2022-01-29","timings":["11:30","13:30","16:30"]}'
+
+curl -X GET http://localhost:8081/theaterservice/movieshow/1/1/2022-01-21/M
